@@ -2,7 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="fill_parent"
     android:layout_width="fill_parent"
-    android:orientation="vertical" > <!-- android:background="@drawable/image_bg" -->
+    android:orientation="vertical"
+    android:scrollbars="none"
+    android:fadeScrollbars="false"
+    > <!-- android:background="@drawable/image_bg" -->
 
     <GridView
         android:id="@+id/gridview"
@@ -11,13 +14,16 @@
         android:layout_weight="1"
         android:columnWidth="0dip"
         android:fadingEdgeLength="10dip"
-        android:fastScrollEnabled="true"
+        android:fastScrollEnabled="false"
         android:gravity="center"
         android:horizontalSpacing="8dip"
         android:numColumns="3"
         android:requiresFadingEdge="vertical"
         android:scrollingCache="true"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="8dip" />
+        android:verticalSpacing="8dip"
+        android:scrollbars="none"
+        android:fadeScrollbars="false"
+        />
 
 </LinearLayout>
