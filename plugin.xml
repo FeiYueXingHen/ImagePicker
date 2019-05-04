@@ -163,8 +163,3 @@
         <framework src="src/android/androidtarget.gradle" custom="true" type="gradleReference"/>
     </platform>
 </plugin>
-
-
-
-
-
