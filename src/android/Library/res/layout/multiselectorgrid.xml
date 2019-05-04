@@ -25,5 +25,4 @@
         android:scrollbars="none"
         android:fadeScrollbars="false"
         />
-
 </LinearLayout>
